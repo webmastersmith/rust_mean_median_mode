@@ -1,9 +1,8 @@
 fn main() {
-    let width1 = 30;
-    let height1 = 50;  //golden ratio 50 / 30 = 1.666666
+    let rec1 = (30, 50);  //width, height
 
-    println!("The area of the rectangle is {} square pixels.", area(width1, height1));
+    println!("The area of the rectangle is {} square pixels.", area(rec1));
 }
-fn area(x:u32, y:u32) -> u32 {
-    x * y
+fn area(dimensions: (u32, u32)) -> u32 {
+    dimensions.0 * dimensions.1
 }
