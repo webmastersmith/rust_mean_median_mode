@@ -1,1 +1,1 @@
-Rust practise with structs
+Rust practice finding mean, median, mode from Vectors.
